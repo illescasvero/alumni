@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    background-color:#DE4545;
+    
+.oscuro{
+    background-color: black;
+}
+}
+.menu{
+    position: relative;
+    left: -100%; /* al achicarse la pantalla el menu desaparece y solo que queda la hamburguesa*/
+    transition: all 500ms;
+}
+.enlace{
+    display: block;
+    padding: 15px;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+}
+.lista{
+    list-style: none;
+}
+.menu ul{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li a:hover{
+    background-color: #6C6364;
+    border: 2px solid goldenrod;
+}
+.burga{
+    cursor: pointer;
+    
+}
+.mostrar{
+    left: 0;
+}
+
+@media(min-width:900px){
+    .menu{
+       
+        left: 0;
+        
+    }
+    .menu ul{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(auto-fill, 150px);
+    }
+    .burga{
+        display: none;
+    }
+}

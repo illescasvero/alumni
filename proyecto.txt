@@ -1,0 +1,33 @@
+Crear una pagina principal para el club alumni{
+    menu
+    header ( banner) foto del club
+    main{
+    slide
+    noticias - tablon de anuncios
+    }
+    footer{
+        redes sociales
+        direccion del club y anexos
+        publicidades
+    }
+
+
+
+
+}
+crear una pagina para la historia del club
+{
+    texto e imagenes
+}
+crear una pagina con la informacion institucional{
+    texto
+}
+crear paginas para las distintas diciplinas{
+    texto e imagenes
+}
+socios{
+    texto-beneficios
+    formulario
+
+}
+
